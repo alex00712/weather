@@ -1,0 +1,47 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main_wraper{
+  padding-top: 10px;
+  background: linear-gradient( #b2e7b8, #35D048);
+  width: 100%;
+  height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+.temp_size{
+  font-size: 3rem
+}
+.sunrise{
+  font-size: 1.2rem;
+  height: 38px;
+  background-image: url('./images/sun_rise.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: auto 100%;
+}
+
+.sunset{
+  font-size: 1.2rem;
+  height: 38px;
+  background-image: url('./images/sun_set.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: auto 100%;
+}
+.weather_after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 110px;
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+}

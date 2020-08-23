@@ -1,0 +1,30 @@
+.atherWeatherChild{
+    text-align: center;
+    margin-right: 2px;
+    width: 100px;
+    height: 110px;
+    background-color:#1d1d1d59;
+    display: inline-block;
+    font-size: 15px;
+    overflow: auto;
+}
+
+.atherWeatherChild:hover{
+  background-color:#81DAC6;
+}
+
+.atherWeatherChild.active{
+  text-align: center;
+  margin-right: 2px;
+  width: 100px;
+  height: 110px;
+  background-color:#2EB597;
+  z-index: 100;
+  display: inline-block;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.icon{
+  width: 40px;
+}
